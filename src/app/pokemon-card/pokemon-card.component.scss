@@ -1,0 +1,46 @@
+
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px; /* Espaciado entre elementos */
+  max-width: 1200px;
+  margin: auto;
+  background-color: beige;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  max-height: 500px;
+  border: 3px solid black;
+
+}
+
+.item {
+  width: 70%;
+}
+img
+{
+  width: 100%
+}
+.card-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p,h5
+{
+  font-size: 1.5rem;
+}
+@media (max-width:400px) {
+  p,h5
+{
+  font-size: 1rem;
+}
+}

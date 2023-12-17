@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="card" *ngFor="let pokemon of pokemones">
+    <div class="item">
+    <div>
+      <img [src]="pokemon.sprite" alt="Imagen de la Card">
+    </div>
+      <div class="card-body">
+        <p>Pokemon: {{pokemon.name}}</p>
+        <p class="card-text">Tipo: {{pokemon.tipo}}.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
