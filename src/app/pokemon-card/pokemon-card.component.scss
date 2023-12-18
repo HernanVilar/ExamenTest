@@ -11,13 +11,15 @@
 }
 
 .card {
+
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ddd;
   max-height: 500px;
   border: 3px solid black;
-
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .item {
@@ -43,4 +45,12 @@ p,h5
 {
   font-size: 1rem;
 }
+}
+
+@media (max-width:700px) {
+  .card
+  {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
