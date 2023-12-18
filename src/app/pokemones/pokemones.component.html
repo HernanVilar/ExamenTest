@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="flex">
+      <div class="card" *ngIf="pokemones[0]" >
+          <img [src]="pokemones[0].sprite" alt="Imagen de la Card">
+          <div class="card-body">
+            <h5 class="card-title">Pokemon: {{pokemones[0].name}}</h5>
+            <p class="card-text">Tipo: {{pokemones[0].tipo}}.</p>
+          </div>
+        </div>
+
+
+        <div class="card" *ngIf="pokemones[1]">
+          <img [src]="pokemones[1].sprite" alt="Imagen de la Card">
+          <div class="card-body">
+            <h5 class="card-title">Pokemon: {{pokemones[1].name}}</h5>
+            <p class="card-text">Tipo: {{pokemones[1].tipo}}.</p>
+          </div>
+        </div>
+  </div>
+
+
+  <div class="flex">
+      <div class="card" *ngIf="pokemones[2]">
+          <img [src]="pokemones[2].sprite" alt="Imagen de la Card">
+          <div class="card-body">
+            <h5 class="card-title">Pokemon: {{pokemones[2].name}}</h5>
+            <p class="card-text">Tipo: {{pokemones[2].tipo}}.</p>
+          </div>
+        </div>
+
+
+        <div class="card" *ngIf="pokemones[3]">
+          <img [src]="pokemones[3].sprite" alt="Imagen de la Card">
+          <div class="card-body">
+            <h5 class="card-title">Pokemon: {{pokemones[3].name}}</h5>
+            <p class="card-text">Tipo: {{pokemones[3].tipo}}.</p>
+          </div>
+        </div>
+  </div>
+          
+</div>

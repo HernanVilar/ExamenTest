@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px; /* Espaciado entre elementos */
+  max-width: 1200px;
+  margin: auto;
+  background-color: beige;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
